@@ -15,6 +15,7 @@ COPY script.sh /opt/jboss/jboss-full/
 
 RUN mvn install -f /opt/jboss/jboss-full/pom.xml
 RUN chmod +x /opt/jboss/jboss-full/script.sh
+RUN mvn install -f /opt/jboss/jboss-full/pom.xml
 
 #COPY deploy/sqljdbc41.jar /opt/jboss/jboss-full/deploy/
 #COPY deploy/jconn3-6.0.26312.jar /opt/jboss/jboss-full/deploy/
