@@ -43,7 +43,6 @@ sleep 60 && \
 /opt/jboss/jboss-full/bin/client -u admin -p admin 'osgi:install -s mvn:org.bouncycastle/bcprov-jdk15on/1.53' && \
 /opt/jboss/jboss-full/bin/client -u admin -p admin 'osgi:install -s mvn:org.bouncycastle/bcpkix-jdk15on/1.53' && \
 /opt/jboss/jboss-full/bin/client -u admin -p admin 'osgi:install -s mvn:org.apache.camel/camel-velocity/2.15.1' && \
-/opt/jboss/jboss-full/bin/client -u admin -p admin 'osgi:install -s wrap:mvn:com.nimbusds/nimbus-jose-jwt/4.12' && \
 /opt/jboss/jboss-full/bin/client -u admin -p admin 'osgi:install -s mvn:org.apache.httpcomponents/httpcore-osgi/4.3.3' && \
 /opt/jboss/jboss-full/bin/client -u admin -p admin 'osgi:install -s mvn:org.apache.httpcomponents/httpclient-osgi/4.3.6' && \
 /opt/jboss/jboss-full/bin/client -u admin -p admin 'osgi:install -s mvn:org.apache.camel/camel-http4/2.15.0' && \
