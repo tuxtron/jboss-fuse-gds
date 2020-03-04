@@ -50,6 +50,8 @@ sleep 60 && \
 /opt/jboss/jboss-full/bin/client -u admin -p admin 'osgi:install -s mvn:net.minidev/asm/1.0.2' && \
 /opt/jboss/jboss-full/bin/client -u admin -p admin 'osgi:install -s mvn:net.minidev/json-smart/1.3.1' && \
 /opt/jboss/jboss-full/bin/client -u admin -p admin 'osgi:install -s mvn:com.jayway.jsonpath/json-path/1.2.0' && \
+/opt/jboss/jboss-full/bin/client -u admin -p admin 'osgi:install -s wrap:mvn:net.jcip/jcip-annotations/1.0' && \
+/opt/jboss/jboss-full/bin/client -u admin -p admin 'osgi:install -s mvn:com.nimbusds/nimbus-jose-jwt/4.12' && \
 /opt/jboss/jboss-full/bin/client -u admin -p admin 'shutdown -f' && \
 sleep 10
 
